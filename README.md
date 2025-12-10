@@ -1,4 +1,5 @@
 # Workflow Engine Assignment
+[Open Swagger UI](http://127.0.0.1:8000/docs#/)
 
 ## Project Overview
 This project implements a minimal workflow/graph engine using FastAPI. Nodes are Python functions operating on a shared state; edges define execution order with support for branching and looping through state metadata. The engine provides APIs to create graphs, run them, and inspect run state.
